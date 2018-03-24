@@ -1,3 +1,4 @@
+
 ## Project: Unscented-Kalman-Filter [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 
 Overview
@@ -16,6 +17,12 @@ Performance
 The video below shows the performance of the Unscented Kalman Filter when both LiDAR and RADAR data is available. As shown in the video, the RMSE values for the state vector are below the thresholds stated in the Project rubric.
 
 [![Both RADAR and LiDAR data available](https://github.com/calvinhobbes119/Extended-Kalman-Filter/blob/master/Untitled.png)](https://youtu.be/Ka9Zg-VmRME)
+
+I also analyzed the consistency of the Unscented Kalman filter by analyzing the NIPS score for both RADAR and LiDAR data. These scores for each measurement sample are plotted below.
+
+![NIS Score - RADAR data](https://github.com/calvinhobbes119/Unscented-Kalman-Filter/blob/master/NIS_Score_RADAR.png)
+
+![NIS Score - LiDAR data](https://github.com/calvinhobbes119/Unscented-Kalman-Filter/blob/master/NIS_Score_LiDAR.png)
 
 The next two videos shows the performance of the EKF when only LiDAR or RADAR measurements are used. As expected the RMSE values are worse when only one sensor data is used.
 
