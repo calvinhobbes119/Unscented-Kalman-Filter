@@ -24,7 +24,7 @@ I also analyzed the consistency of the Unscented Kalman filter by analyzing the 
 
 ![NIS Score - LiDAR data](https://github.com/calvinhobbes119/Unscented-Kalman-Filter/blob/master/NIS_Score_LiDAR.png)
 
-The next two videos shows the performance of the EKF when only LiDAR or RADAR measurements are used. As expected the RMSE values are worse when only one sensor data is used.
+The next two videos shows the performance of the UKF when only LiDAR or RADAR measurements are used. As expected the RMSE values are worse when only one sensor data is used. However, in each case the performance is better than for the equivalent case when using EKF because the CTRV motion model more accurately captures the movement of the car in the simulator when compared with the linear motion model used in the EKF.
 
 [![Only LiDAR data is available](https://github.com/calvinhobbes119/Extended-Kalman-Filter/blob/master/Untitled.png)](https://youtu.be/eecOsWagkyg)
 
