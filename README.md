@@ -18,7 +18,7 @@ The video below shows the performance of the Unscented Kalman Filter when both L
 
 [![Both RADAR and LiDAR data available](https://github.com/calvinhobbes119/Extended-Kalman-Filter/blob/master/Untitled.png)](https://youtu.be/Ka9Zg-VmRME)
 
-I also analyzed the consistency of the Unscented Kalman filter by analyzing the NIPS score for both RADAR and LiDAR data. These scores for each measurement sample are plotted below.
+I also analyzed the consistency of the Unscented Kalman filter by analyzing the NIS score for both RADAR and LiDAR data. These scores for each measurement sample are plotted below.
 
 ![NIS Score - RADAR data](https://github.com/calvinhobbes119/Unscented-Kalman-Filter/blob/master/NIS_Score_RADAR.png)
 
